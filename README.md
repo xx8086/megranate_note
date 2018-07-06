@@ -13,5 +13,4 @@ render
 
 赞助杯咖啡
 =
-![微信](./weixin.png)
-![支付宝](./zhifubao.jpg)
+![微信](./weixin.png)  ![支付宝](./zhifubao.png)
