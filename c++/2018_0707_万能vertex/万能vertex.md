@@ -3,7 +3,7 @@
 1. 只需要实现一个模版类template <typename T, unsigned int N> class MgVertex；
 2. 我可以得到任意类型T、任意个成员对象数量N的vertex;
 3. 不同数量N的vertex有带N个参数的构造函数；
-4. 成员对象最好不是简单的 T _data[N]，可以这样:
+4. 成员对象最好不是简单的 T _data[N]，可以这样:
 ```c++ 
 union{
         struct{T x, y, z, ...;};
@@ -12,13 +12,15 @@ union{
         T _datas[N];
     };
 ```
+结果
+-
 ![](./结果.png)
 
 实现：
 =
 ![](./方案.png)
 
-偏特化实现需求4:
+偏特化实现需求4:
 -
 ```c++ 
 
