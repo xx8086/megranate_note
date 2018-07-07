@@ -1,7 +1,7 @@
 我想实现一个万能vertex,她需要满足：
 -
 1. 只需要实现一个模版类template <typename T, unsigned int N> class MgVertex；
-2. 我可以得到任意类型T、任意个成员对象数量N的vertex;
+2. 我可以得到任意类型T和任意个成员对象数量N的vertex的组合;
 3. 不同数量N的vertex有带N个参数的构造函数；
 4. 成员对象最好不是简单的 T _data[N]，可以这样:
 ```c++ 
@@ -89,7 +89,7 @@ more:
 template <typename T,
 unsigned int N,
 typename AP = ArithmeticalPolicy<T>,//以后优化运算的扩展
-typename AT = Traits<T> >//traits
+typename AT = Traits<T> >//traits
 class MgVertex :  public TraitsN<T, N>{
     MgVertex(T t1, T t2 = AT::zero(), T t3 = AT::zero(), T t4 = AT::zero(), T t5 = AT::zero());
 };
