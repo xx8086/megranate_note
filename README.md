@@ -18,7 +18,3 @@ c++
 
 render
 =
-
-赞助杯咖啡
-=
-![微信](./res/weixin.png)  ![支付宝](./res/zhifubao.png)
