@@ -15,6 +15,7 @@ frame
 
 render
 =
+* [2018_10_15_ssao](./render/2018_10_15_ssao/2018_10_15_ssao.md)
 
 赞助杯咖啡
 =
