@@ -4,7 +4,7 @@
 
 frame
 =
-![ frame]](./megranate_ecs_frame.jpg)
+![megranate_ecs_frame](./megranate_ecs_frame.jpg)
 
 render
 =
